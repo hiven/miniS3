@@ -10,7 +10,7 @@ import logging
 from typing import Union
 
 # Logging setup
-log = logging.getLogger("minis3")
+log = logging.getLogger("miniS3")
 log.addHandler(logging.NullHandler())
 
 class Client:
