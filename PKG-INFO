@@ -33,7 +33,7 @@ Download an S3 object to a file
 
 .. code-block:: python
 
-    from light_s3_client import Client
+    from miniS3 import Client
 
     s3 = Client(
         region="us-west-1",
@@ -59,7 +59,7 @@ Upload a File Object to S3
 
 .. code-block:: python
 
-    from light_s3_client import Client
+    from miniS3 import Client
     import json
 
 
@@ -95,7 +95,7 @@ Delete a S3 object
 
 .. code-block:: python
 
-    from light_s3_client import Client
+    from miniS3 import Client
 
     s3 = Client(
         region="us-west-1",
@@ -118,7 +118,7 @@ Lists all keys in an object
 
 .. code-block:: python
 
-    from light_s3_client import Client
+    from miniS3 import Client
 
     s3 = Client(
         region="us-west-1",
@@ -141,7 +141,7 @@ Returns if an object exists or not
 
 .. code-block:: python
 
-    from light_s3_client import Client
+    from miniS3 import Client
 
     s3 = Client(
         region="us-west-1",
