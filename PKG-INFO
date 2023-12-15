@@ -1,9 +1,7 @@
 Metadata-Version: 2.1
-Name: light-s3-client
-Version: 0.0.19
+Name: miniS3
+Version: 0.0.1
 Summary: A lightweight S3 client that does not rely on boto3
-Author: Douglas Coburn
-Author-email: douglas@dactbc.com
 License: MIT
 Classifier: Programming Language :: Python :: 3
 Requires-Python: >=3.6
@@ -12,7 +10,7 @@ License-File: LICENSE
 Requires-Dist: requests
 
 
-light-s3-client
+miniS3
 ###############
 
 Purpose
